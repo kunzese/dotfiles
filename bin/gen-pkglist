@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -e
+
+# yay -S --needed - < pkglist.txt
+
+echo "base-devel"
+comm -23 <(pacman -Qqe | sort) <(pacman -Sqg base-devel | sort)
