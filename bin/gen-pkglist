@@ -2,6 +2,7 @@
 
 set -e
 
+# gen-pkglist | sort > ~/pkglist.txt
 # yay -S --needed - < pkglist.txt
 
 echo "base-devel"

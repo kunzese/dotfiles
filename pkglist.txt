@@ -4,6 +4,7 @@ ansible-lint
 base
 base-devel
 chromium
+dbeaver
 docker
 efibootmgr
 feh
@@ -34,6 +35,8 @@ pulseaudio
 pulseaudio-alsa
 reflector
 rofi
+screen
+shellcheck
 siji-git
 soapui
 spotify
