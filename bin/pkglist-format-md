@@ -1,0 +1,23 @@
+#!/usr/bin/env ruby
+
+# frozen_string_literal: true
+
+MAX_LINE_LENGTH = 100
+
+packages = []
+lines = []
+
+`~/bin/pkglist-gen | sort`.each_line do |line|
+  packages << line.chomp
+end
+
+while packages.any?
+  line = ' '
+  line += ' ' + packages.shift while packages.any? && line.length + packages[0].length + 1 <= MAX_LINE_LENGTH - 2
+  lines << line
+end
+
+puts '```shell'
+puts 'yay -S --needed \\'
+puts lines.join(" \\\n")
+puts '```'
