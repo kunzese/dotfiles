@@ -1,5 +1,6 @@
 {
     "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "editor.renderWhitespace": "all",
