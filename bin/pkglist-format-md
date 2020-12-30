@@ -2,7 +2,7 @@
 
 # frozen_string_literal: true
 
-MAX_LINE_LENGTH = 100
+MAX_LINE_LENGTH = 80
 
 packages = []
 lines = []
