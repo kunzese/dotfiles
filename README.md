@@ -23,9 +23,7 @@ yay -S --needed \
   numlockx nvidia nvidia-settings openssh pacman-contrib pavucontrol picom \
   playerctl polybar polybar-spotify-git pulseaudio pulseaudio-alsa python qmk \
   reflector ripgrep rofi ruby ruby-bundler shellcheck sops spotify starship \
-  texlive-bibtexextra texlive-core texlive-fontsextra texlive-formatsextra \
-  texlive-games texlive-humanities texlive-latexextra texlive-music \
-  texlive-pictures texlive-pstricks texlive-publishers texlive-science \
-  tfswitch-bin tmux ttf-font-awesome ttf-hack ttf-material-design-icons ufw \
-  unrar usbutils visual-studio-code-bin vlc wget xorg-xinit yamllint yay
+  texlive-most tfswitch-bin tmux ttf-font-awesome ttf-hack \
+  ttf-material-design-icons ufw unrar usbutils visual-studio-code-bin vlc wget \
+  xorg-xinit yamllint yay
 ```
