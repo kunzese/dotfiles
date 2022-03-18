@@ -1,9 +1,11 @@
 #!/bin/bash
 
-set -e
-
-# gen-pkglist | sort > ~/pkglist.txt
+# pkglist-gen | sort > ~/pkglist.txt
 # yay -S --needed - < pkglist.txt
 
-echo "base-devel"
-comm -23 <(pacman -Qqe | sort) <(pacman -Sqg base-devel | sort)
+set -e
+
+groups=(base-devel texlive-most)
+
+printf '%s\n' "${groups[@]}"
+comm -23 <(pacman -Qqe | sort) <(pacman -Sqg "${groups[@]}" | sort)
