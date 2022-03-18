@@ -1,0 +1,12 @@
+[gcloud]
+disabled = true
+format = 'on [$project]($style) '
+
+[kubernetes]
+disabled = false
+
+[java]
+disabled = true
+
+[package]
+disabled = true
